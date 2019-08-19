@@ -12,6 +12,8 @@
 		BA05CFA9230B48BB00E76512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA05CFA7230B48BB00E76512 /* Main.storyboard */; };
 		BA05CFAB230B48BC00E76512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA05CFAA230B48BC00E76512 /* Assets.xcassets */; };
 		BA05CFAE230B48BC00E76512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA05CFAC230B48BC00E76512 /* LaunchScreen.storyboard */; };
+		BA05CFB6230B537800E76512 /* MainNavigationControllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA05CFB5230B537800E76512 /* MainNavigationControllViewController.swift */; };
+		BA05CFB8230B549B00E76512 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA05CFB7230B549B00E76512 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BA05CFAA230B48BC00E76512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA05CFAD230B48BC00E76512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA05CFAF230B48BC00E76512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA05CFB5230B537800E76512 /* MainNavigationControllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationControllViewController.swift; sourceTree = "<group>"; };
+		BA05CFB7230B549B00E76512 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				BA05CFAA230B48BC00E76512 /* Assets.xcassets */,
 				BA05CFAC230B48BC00E76512 /* LaunchScreen.storyboard */,
 				BA05CFAF230B48BC00E76512 /* Info.plist */,
+				BA05CFB5230B537800E76512 /* MainNavigationControllViewController.swift */,
+				BA05CFB7230B549B00E76512 /* LoginVC.swift */,
 			);
 			path = NavigationControllProgramatically;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA05CFB6230B537800E76512 /* MainNavigationControllViewController.swift in Sources */,
 				BA05CFA6230B48BB00E76512 /* ViewController.swift in Sources */,
+				BA05CFB8230B549B00E76512 /* LoginVC.swift in Sources */,
 				BA05CFA4230B48BB00E76512 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
